@@ -716,3 +716,103 @@ header button:hover {
 /* ********************** */
 /* CTA Section Design End */
 /* ********************** */
+
+/* ************************* */
+/* Footer Section Design End */
+/* ************************* */
+
+.footer-container {
+    margin: 50px 0 0 0;
+    padding: 0 10% 0 10%; /* Adjusted padding for better responsiveness */
+}
+
+.footer-container .first-link {
+    display: block;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.footer-container .first-link:hover {
+    cursor: pointer;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: space-between;
+    margin: 50px 0 20px 0;
+}
+
+.footer-column {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 1; /* Allow columns to grow and shrink */
+    min-width: 200px; /* Ensure columns don't get too narrow */
+}
+
+.footer-column a {
+    display: block;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-column a:hover {
+    cursor: pointer;
+}
+
+.footer-bottom select {
+    width: auto;
+    height: auto;
+    padding: 5px 12px;
+    margin: 10px 20px 0 0;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color:#0f0f0f;
+    border: 1px solid rgba(255, 255, 255, 0.532);
+}
+
+.footer-bottom h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 50px 0 100px 0;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 0 5% 0 5%;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .footer-column {
+        margin: 10px 0;
+        align-items: center;
+    }
+
+    .footer-bottom select {
+        margin: 10px 0 0 0;
+    }
+
+    .footer-bottom h3 {
+        margin: 20px 0 50px 0;
+    }
+}
+
+/* ************************* */
+/* Footer Section Design End */
+/* ************************* */
