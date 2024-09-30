@@ -623,3 +623,96 @@ header button:hover {
 /* ********************** */
 /* FAQ Section Design End */
 /* ********************** */
+
+/* ********************** */
+/* CTA Section Design End */
+/* ********************** */
+
+.cta-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.cta-section h3 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    margin-top: 50px;
+}
+
+.cta-input {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.cta-input input {
+    width: 600px;
+    font-size: 16px;
+    padding: 15px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.532);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.cta-input button {
+    width: fit-content;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin: 10px;
+    color: white;
+    border: none;
+    background-color: #ff0000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-input button:hover {
+    background-color: #E50914;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .cta-input {
+        flex-direction: column;
+    }
+
+    .cta-input input {
+        width: 300px;
+    }
+
+    .cta-input button {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .cta-section h3 {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+
+    .cta-input input {
+        width: 400px;
+    }
+
+    .cta-input button {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+}
+
+/* ********************** */
+/* CTA Section Design End */
+/* ********************** */
