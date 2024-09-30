@@ -247,3 +247,119 @@ header button:hover {
 /* *********************** */
 /* Main Section Design End */
 /* *********************** */
+
+/* ***************************** */
+/* Trending Section Design Start */
+/* ***************************** */
+
+.trending-section {
+    padding: 0 10vw;
+}
+
+.trending-section h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-top: 40px;
+}
+
+.trending-section .select-section select {
+    width: auto;
+    height: auto;
+    padding: 10px 12px;
+    margin: 10px 20px 0 0;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #0f0f0f;
+    border: 1px solid rgba(255, 255, 255, 0.532);
+}
+
+.trending-movies {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    overflow-x: scroll;
+}
+
+.trending-movies::-webkit-scrollbar {
+    display: none;
+}
+
+.trending-movie {
+    height: 300px;
+    min-width: 200px;
+    border-radius: 15px;
+    margin: 0 20px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+}
+
+.trending-movie h1 {
+    color: black;
+    font-size: 100px;
+    font-weight: 900;
+    transform: translateX(-20px);
+    -webkit-text-stroke: 1px white;
+}
+
+.trending-movie-1 {
+    background-image: url(media/movie-image-1.jpg);
+}
+
+.trending-movie-2 {
+    background-image: url(media/movie-image-2.jpg);
+}
+
+.trending-movie-3 {
+    background-image: url(media/movie-image-3.jpg);
+}
+
+.trending-movie-4 {
+    background-image: url(media/movie-image-4.jpg);
+}
+
+.trending-movie-5 {
+    background-image: url(media/movie-image-5.jpg);
+}
+
+.trending-movie-6 {
+    background-image: url(media/movie-image-6.jpg);
+}
+
+.trending-movie-7 {
+    background-image: url(media/movie-image-7.jpg);
+}
+
+.trending-movie-8 {
+    background-image: url(media/movie-image-8.jpg);
+}
+
+@media screen and (max-width: 640px) {
+    .trending-section .buttons-section button {
+        font-size: 18px;
+        padding: 6px 12px;
+        margin: 5px 10px 0 0;
+    }
+
+    .trending-movies {
+        height: 200px;
+        overflow-x: scroll;
+        width: 100%;
+    }
+
+    .trending-movie {
+        height: 150px;
+        width: 100px;
+    }
+}
+
+/* *************************** */
+/* Trending Section Design End */
+/* *************************** */
