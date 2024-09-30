@@ -363,3 +363,141 @@ header button:hover {
 /* *************************** */
 /* Trending Section Design End */
 /* *************************** */
+
+/* **************************** */
+/* Reasons Section Design Start */
+/* **************************** */
+
+.reasons-section {
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reasons-section h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-top: 40px;
+    align-self: flex-start;
+}
+
+.reasons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reasons .reason {
+    height: 350px;
+    width: 250px;
+    background: -webkit-linear-gradient(290deg, #192145, #20111E);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.reasons .reason :nth-child(1) {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.reasons .reason :nth-child(2) {
+    color: #BBBBC2;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.reasons .reason :nth-child(3) {
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 1024px) {
+    .reasons-section {
+        padding: 0 5%;
+    }
+
+    .reasons-section h3 {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .reasons {
+        flex-wrap: wrap;
+        /* Allow items to wrap */
+    }
+
+    .reasons .reason {
+        width: 45%;
+        /* Adjust width to fit two items per row */
+        margin: 15px 2.5%;
+        /* Adjust margin for spacing */
+    }
+}
+
+
+/* Small screens (phones) */
+@media (max-width: 768px) {
+    .reasons-section {
+        padding: 0 3%;
+    }
+
+    .reasons-section h3 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .reasons .reason {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .reasons .reason :nth-child(1) {
+        font-size: 20px;
+    }
+
+    .reasons .reason :nth-child(2) {
+        font-size: 16px;
+    }
+}
+
+/* Extra small screens (very small phones) */
+@media (max-width: 480px) {
+    .reasons-section {
+        padding: 0 2%;
+    }
+
+    .reasons-section h3 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .reasons .reason {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .reasons .reason :nth-child(1) {
+        font-size: 18px;
+    }
+
+    .reasons .reason :nth-child(2) {
+        font-size: 14px;
+    }
+}
+
+/* ************************** */
+/* Reasons Section Design End */
+/* ************************** */
