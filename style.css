@@ -263,6 +263,10 @@ header button:hover {
     margin-top: 40px;
 }
 
+.trending-sections-selects {
+    padding: 10px;
+}
+
 .trending-section .select-section select {
     width: auto;
     height: auto;
@@ -281,6 +285,7 @@ header button:hover {
     align-items: center;
     height: 400px;
     width: 100%;
+    padding: 0 20px;
     margin: 0;
     overflow-x: scroll;
 }
@@ -301,44 +306,155 @@ header button:hover {
     align-items: flex-start;
 }
 
-.trending-movie h1 {
-    color: black;
-    font-size: 100px;
-    font-weight: 900;
-    transform: translateX(-20px);
-    -webkit-text-stroke: 1px white;
+.trending-movie:hover {
+    cursor: pointer;
 }
 
 .trending-movie-1 {
     background-image: url(media/movie-image-1.jpg);
+    overflow: visible;
+}
+
+.trending-movie-1:after {
+    content: "1";
+    font-size: 100px;
+    color: black;
+    font-weight: 900;
+    transform: translateX(-30px);
+    -webkit-text-stroke: 3px white;
 }
 
 .trending-movie-2 {
     background-image: url(media/movie-image-2.jpg);
+    overflow: visible;
+}
+
+.trending-movie-2:after {
+    content: "2";
+    font-size: 100px;
+    color: black;
+    font-weight: 900;
+    transform: translateX(-30px);
+    -webkit-text-stroke: 3px white;
+    overflow: visible;
 }
 
 .trending-movie-3 {
     background-image: url(media/movie-image-3.jpg);
+    overflow: visible;
+}
+
+.trending-movie-3:after {
+    content: "3";
+    font-size: 100px;
+    color: black;
+    font-weight: 900;
+    transform: translateX(-30px);
+    -webkit-text-stroke: 3px white;
+    overflow: visible;
 }
 
 .trending-movie-4 {
     background-image: url(media/movie-image-4.jpg);
+    overflow: visible;
+}
+
+.trending-movie-4:after {
+    content: "4";
+    font-size: 100px;
+    color: black;
+    font-weight: 900;
+    transform: translateX(-30px);
+    -webkit-text-stroke: 3px white;
+    overflow: visible;
 }
 
 .trending-movie-5 {
     background-image: url(media/movie-image-5.jpg);
+    overflow: visible;
+}
+
+.trending-movie-5:after {
+    content: "5";
+    font-size: 100px;
+    color: black;
+    font-weight: 900;
+    transform: translateX(-30px);
+    -webkit-text-stroke: 3px white;
+    overflow: visible;
 }
 
 .trending-movie-6 {
     background-image: url(media/movie-image-6.jpg);
+    overflow: visible;
+}
+
+.trending-movie-6:after {
+    content: "6";
+    font-size: 100px;
+    color: black;
+    font-weight: 900;
+    transform: translateX(-30px);
+    -webkit-text-stroke: 3px white;
+    /* overflow: visible; */
 }
 
 .trending-movie-7 {
     background-image: url(media/movie-image-7.jpg);
+    overflow: visible;
+}
+
+.trending-movie-7:after {
+    content: "7";
+    font-size: 100px;
+    color: black;
+    font-weight: 900;
+    transform: translateX(-30px);
+    -webkit-text-stroke: 3px white;
+    overflow: visible;
 }
 
 .trending-movie-8 {
     background-image: url(media/movie-image-8.jpg);
+    overflow: visible;
+}
+
+.trending-movie-8:after {
+    content: "8";
+    font-size: 100px;
+    color: black;
+    font-weight: 900;
+    transform: translateX(-30px);
+    -webkit-text-stroke: 3px white;
+    overflow: visible;
+}
+.trending-movie-9 {
+    background-image: url(media/movie-image-9.jpg);
+    overflow: visible;
+}
+
+.trending-movie-9:after {
+    content: "9";
+    font-size: 100px;
+    color: black;
+    font-weight: 900;
+    transform: translateX(-30px);
+    -webkit-text-stroke: 3px white;
+    overflow: visible;
+}
+.trending-movie-10 {
+    background-image: url(media/movie-image-10.jpg);
+    overflow: visible;
+}
+
+.trending-movie-10:after {
+    content: "10";
+    font-size: 100px;
+    color: black;
+    font-weight: 900;
+    transform: translateX(-30px);
+    -webkit-text-stroke: 3px white;
+    overflow: visible;
 }
 
 @media screen and (max-width: 640px) {
@@ -402,6 +518,10 @@ header button:hover {
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
+}
+
+.reasons .reason:hover {
+    cursor: pointer;
 }
 
 .reasons .reason :nth-child(1) {
@@ -542,6 +662,7 @@ header button:hover {
 .faq:hover {
     background-color: #414141;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .faq h3 {
@@ -646,6 +767,7 @@ header button:hover {
 
 .cta-input {
     margin-top: 10px;
+    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
